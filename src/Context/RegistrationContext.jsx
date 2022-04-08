@@ -55,7 +55,9 @@ export function RegistrationContextProvider({children}){
             dispatch,
             handleSubmit
         }}
-        />
+        >
+                 {children}
+        </RegistrationContext.Provider>
 
     )
 }
