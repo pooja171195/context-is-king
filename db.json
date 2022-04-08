@@ -1,0 +1,12 @@
+{
+    "users": [{
+            "name": "pooja ",
+            "age": "27",
+            "dateofbirth": "1995-05-20",
+            "StateofResidence": "Gujraat",
+            "Address": "Bihar",
+            "Pincode": "380058"
+        }
+
+    ]
+}

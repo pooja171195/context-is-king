@@ -16,7 +16,7 @@ function reducer(state,action){
             case "CHANGE_AGE":
             return {...state,age: action.payload};
             case "CHANGE_DATE_OF_BIRTH":
-            return {...state,dateOfBirth: action.payload};
+            return {...state,dateofbirth: action.payload};
             case "CHANGE_STATE_OF_RESIDENCE":
             return {...state,StateofResidence: action.payload};
             case "CHANGE_ADDRESS":
@@ -52,7 +52,7 @@ export function RegistrationContextProvider({children}){
             StateofResidence,
             Address,
             Pincode,
-            dispatch,
+           dispatch,
             handleSubmit
         }}
         >

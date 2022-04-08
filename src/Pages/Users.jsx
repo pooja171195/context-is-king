@@ -9,26 +9,26 @@ export const Users =() => {
         .catch((erro) => console.log(erro));
     },[]);
     return (
-        <table style={{border: "1px solid teal"}}>
+        <table style={{border: "1px solid #005F61"}}>
             <thead>
                 <tr>
-                    <th style={{border: "1px solid teal"}}>Name</th>
-                    <th style={{border: "1px solid teal"}}>Age</th>
-                    <th style={{border: "1px solid teal"}}>Date of Birth</th>
-                    <th style={{border: "1px solid teal"}}>State of Residence</th>
-                    <th style={{border: "1px solid teal"}}>Address</th>
-                    <th style={{border: "1px solid teal"}}>Pincode</th>
+                    <th style={{border: "1px solid #005F61"}}>Name</th>
+                    <th style={{border: "1px solid #005F61"}}>Age</th>
+                    <th style={{border: "1px solid #005F61"}}>Date of Birth</th>
+                    <th style={{border: "1px solid #005F61"}}>State of Residence</th>
+                    <th style={{border: "1px solid #005F61"}}>Address</th>
+                    <th style={{border: "1px solid #005F61"}}>Pincode</th>
                 </tr>
             </thead>
             <tbody>
                 {users.map((user) => (
-                <tr>
-            <td style={{border: "1px solid teal"}}>{users.name}</td>
-            <td style={{border: "1px solid teal"}}>{users.age}</td>
-            <td style={{border: "1px solid teal"}}>{users.dateogbirth}</td>
-            <td style={{border: "1px solid teal"}}>{users.StateofResidence}</td>
-            <td style={{border: "1px solid teal"}}>{users.Address}</td>
-            <td style={{border: "1px solid teal"}}>{users.Pincode}</td>
+                <tr >
+            <td style={{border: "1px solid #005F61"}}>{user.name}</td>
+            <td style={{border: "1px solid #005F61"}}>{user.age}</td>
+            <td style={{border: "1px solid #005F61"}}>{user.dateofbirth}</td>
+            <td style={{border: "1px solid #005F61"}}>{user.StateofResidence}</td>
+            <td style={{border: "1px solid #005F61"}}>{user.Address}</td>
+            <td style={{border: "1px solid #005F61"}}>{user.Pincode}</td>
             </tr>
                  ))}
             </tbody>

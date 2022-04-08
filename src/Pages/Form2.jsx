@@ -35,7 +35,7 @@ payload: e.target.value
             value={Address}
             onChange={(e) =>
             dispatch({
-type: "CHANGE_STATE_ADDRESS",
+type: "CHANGE_ADDRESS",
 payload: e.target.value
             })
         }
