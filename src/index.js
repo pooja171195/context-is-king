@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import { RegistrationContextProvider } from "./context/RegistrationContext";
+import { RegistrationContextProvider } from "./Context/RegistrationContext";
 
 ReactDOM.render( <
     React.StrictMode >
@@ -15,8 +15,8 @@ ReactDOM.render( <
     <
     App / >
     <
-    /BrowserRouter>{" "} <
-    /RegistrationContextProvider>{" "} <
+    /BrowserRouter>{" "} < /
+    RegistrationContextProvider > { " " } <
     /React.StrictMode>,
     document.getElementById("root")
 );
