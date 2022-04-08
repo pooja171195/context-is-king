@@ -9,14 +9,8 @@ import { RegistrationContextProvider } from "../src/Context/RegistrationContext"
 ReactDOM.render( <
     React.StrictMode >
     <
-    RegistrationContextProvider >
-    <
-    BrowserRouter >
-    <
     App / >
     <
-    /BrowserRouter> <
-    /RegistrationContextProvider>  <
     /React.StrictMode>,
     document.getElementById("root")
 );
