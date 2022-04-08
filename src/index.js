@@ -6,11 +6,9 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react";
 import { RegistrationContextProvider } from "../src/Context/RegistrationContext";
 
-ReactDOM.render( <
-    React.StrictMode >
-    <
-    App / >
-    <
-    /React.StrictMode>,
-    document.getElementById("root")
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
 );
